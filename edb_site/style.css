@@ -1,0 +1,296 @@
+body{
+    background-image:url(resimler/indir.jpg);
+    background-repeat: repeat-x;
+    color:whitesmoke;
+    overflow-x: hidden;
+}
+.nav{
+
+    height: 130px;
+    width: 100%;
+}.nav img{
+    border-radius: 50%;
+    margin: 2px 25px;
+    
+}
+.nav img + h3{
+    position: relative;
+    top:19px;
+    right:135px;
+    display: inline;
+}
+.nav img + h3 span{
+    color:rgb(205, 0, 0);
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+ul li{
+    border:5px solid white;
+    text-align: center;
+    
+}
+ul li a:hover{
+    color: red;
+}
+ul.menu{
+    position: absolute;
+    left:400px;
+    top:5.5vh;
+   
+}
+ul.menu li{
+    float:left;
+    position: relative;
+    width: 160px;
+    
+}
+ul.menu li ul{
+    display: none;
+}
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 23px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+ul li a:hover{
+    text-decoration: underline;
+    
+}
+ul li:hover ul{
+    display: block;
+}
+.nav a input{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    font-weight: bold;
+    cursor:pointer;
+    position: relative;
+    left: 130vh;
+    bottom:6.5vh;
+}
+.nav a input:hover{
+    background-color: rgb(164, 43, 43);
+}
+
+
+.baslangıc{
+    height: 800px;
+    width: 100%;
+    background-color:white;
+    position: relative;
+    right: 50px;
+    top: 344px;
+    border:2px solid rgb(176, 176, 176);
+    color:whitesmoke;
+    padding: 30px 40px;
+    
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+.soz{
+    font-size: 40px;
+    position: relative;
+    top:200px;
+    left: 220px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style:italic;
+    display:block;
+}
+.soz + img{
+    position: relative;
+    top: 110px;
+    left: 67%;
+    width: 300px;
+}
+.soz2{
+    color: white;
+    position: relative;
+    font-weight: bold;
+    top: 150px;
+    left: 350px;
+}
+.baslangıc #a{
+    height: 300px;
+    width: 300px;
+    margin-left: 130px;
+    border:solid 2px rgb(155, 155, 155);
+    border-radius: 40px;
+    display: inline-block;
+    text-align: center;
+}
+.baslangıc #a a #a1{
+    position: absolute;
+    width: 200px;
+    left:230px;
+    top:40px;
+    
+}
+.baslangıc #a a + p{
+    position: absolute;
+    top:250px;
+    margin-left: 40px;
+    color:black;
+}
+.baslangıc #a a + p a{
+    text-decoration: none;
+    color:black;
+    font-size: 23px;
+}
+.baslangıc #a #a2{
+    width: 200px;
+    position: absolute;
+    left: 663px;
+}
+.baslangıc #a  + p{
+    position: absolute;
+    top:250px;
+    margin-left: 70px;
+}
+.baslangıc #a #a2 + p a{
+    text-decoration: none;
+    color:black;
+    font-size: 23px;
+}
+.baslangıc #a #a3{
+    position: absolute;
+    right: 350px;
+    width: 150px;
+}
+.baslangıc #a #a3 + p{
+  position: absolute;
+  top:250px;
+  font-size:20px;
+}
+.baslangıc #a #a3 + p a{
+    text-decoration: none;
+    color:black;
+    margin-right: 20px;
+}
+.baslangıc #a a img{
+    margin-top: 11px;
+}
+.baslangıc #b{
+    height: 300px;
+    width: 300px;
+    margin-left: 130px;
+    margin-top: 95px;
+    border:solid 2px rgb(155, 155, 155);
+    border-radius: 40px;
+    border:solid 2px rgb(155, 155, 155);
+    display: inline-block;
+}
+.baslangıc #b a img{
+    margin-top: 11px;
+}
+.baslangıc #b a #b1{
+    width: 150px;
+    position: absolute;
+    margin-left: 65px;
+    margin-top: 10px;
+}
+.baslangıc #b a + p a{
+    color:black;
+    position: absolute;
+    font-size: 20px;
+    margin-top:200px;
+    margin-left:35px;
+    text-align: center;
+    text-decoration: none;
+}
+.baslangıc #b a #b2{
+    width: 180px;
+    position: absolute;
+    margin-left:50px;
+    
+}
+.cck{
+    margin-left: 40px;
+}
+
+/* simdi login ekranini yapicaz */
+.log{
+    width: 500px;
+    height: 500px;
+    background-color: whitesmoke;
+    position: relative;
+    left: 30%;
+    top:15%;
+    border-radius: 45px;
+    color: black;
+}
+.log h1{
+  color:black;
+  margin-left:3em;
+  position: relative;
+  top:25px;
+  margin-bottom: 65px;
+  text-decoration: underline;
+}
+.log div input{
+    width: 300px;
+    height: 50px;
+    margin: 15px 90px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.log p + input{
+    position: relative;
+    left:90px;
+    top:25px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(170, 168, 168);
+    cursor: pointer;
+    font-size:20px;
+}
+.log p + input:hover{
+    background-color: gray;
+}
+
+.log p input[type="checkbox"]{
+    vertical-align: bottom;
+}
+
+/* İletisim bölümü  */
+
+.ilt{
+    height: 300px;
+    width: 100%;
+    position: relative;
+    top:150px;
+    background-color: gray;
+    text-align: center;
+    
+    
+}
+.ilt h1{
+    padding-top: 60px;
+    font-size: 50px;
+    text-decoration:underline;
+}
+.ilt div{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 20px;
+    margin: auto;
+    width: 1200px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.ilt div a{
+    text-decoration: none;
+    color:white;
+}
+.ilt div a:hover{
+    text-decoration: underline;
+}
+
